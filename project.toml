@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "katouwa"
+version = "0.1.0"
+description = "NASA Space Apps: Earth System Trend Detective MVP"
+authors = ["Your Team <team@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.38.0"
+earthengine-api = "^0.1.415"
+geopandas = "^1.0.1"
+folium = "^0.17.0"
+streamlit-folium = "^0.21.0"
+numpy = "^2.0.0"
+scipy = "^1.13.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+flake8 = "^7.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
